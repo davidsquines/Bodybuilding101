@@ -7,7 +7,7 @@
 </head>
 <body>
 <header role="banner">
-  <h2>Body Parts</h2>
+  <h1>Body Parts</h1>
   <nav role="navigation">
     <ul class="navBar">
       <!--This ul is specific to create the navigation bar located at the top of every page.-->
@@ -27,7 +27,7 @@
             <img src="assets/bodyfrontback.png" alt="body image" width="700" height="500" class="center" usemap="#body_map">
             <!--The "map" element allows a developer to assign clickable links to certain areas of the image. The area of the link is defined by coordinates that correlate to pixels. These coordinates can be of a rectangular shape, circular shape, or a polygonial shape. -->
             <map name="body_map">
-              <!--The name attribute is used to assign a certain map to a certain image. This way different maps can be used for different images.-->
+              <!--The "name" attribute is used to assign a certain map to a certain image. This way different maps can be used for different images.-->
                 <!--Area maps for upper body muscle groups-->
                 <area coords="68,124,62,158,56,182,55,213,54,229,68,228,78,211,84,192,86,158,87,136,81,111" shape="poly" alt="right bicep click section" href="#biceps">
                 <area coords="174,119,173,129,174,151,177,165,182,174,181,191,192,213,200,226,203,232,214,230,212,207,209,185,201,160,197,129,194,118" shape="poly" alt="left bicep click area" href="#biceps">
@@ -48,7 +48,7 @@
         <section>
           <h2>Upper Body Muscle Groups</h2>
           <section id="biceps">
-            <h3>Biceps And Forearms</h3>
+            <h3 dir="ltr">Biceps And Forearms</h3>
             <p>Training of the bicep muscles is crucial for building huge arms. To effectivly train these muscles, focus on the concentric portion of the movement, which is where you lower the arm after curling the weight. It is recommended that use both heavy and light weights to train this muscle. </p>
             <!--In order to create a list with a picture side by side, I used divs to create a row with columns. Each column has different background colors to help differentiate the content. They all sit in a row to create the UI.-->
             <div class="row">
@@ -67,9 +67,9 @@
                   <dt>Best Exercies</dt>
                   <dd>
                     <ul>
-                      <li>Dumbbell Curls (long head emphasis)</li>
-                      <li>Hammer Curls (Brachialis emphasis)</li>
-                      <li>Preacher (short head emphasis)</li>
+                      <li><u>Dumbbell Curls</u> (long head emphasis)</li>
+                      <li><u>Hammer Curls</u> (Brachialis emphasis)</li>
+                      <li><u>Preacher</u> (short head emphasis)</li>
                     </ul>
                   </dd>
                 </dl>
@@ -79,8 +79,8 @@
               </div>
             </div>
           </section>
-          <section id="tricep">
-            <h3 style="text-align: right;">Triceps</h3>
+          <section id="tricep" class="section1">
+            <h3 dir="rtl">Triceps</h3>
             <p>Contrary to popular belief, it is not the biceps that make your arms look huge, it is the <u>triceps</u>. In fact, the tricep muscles take up two-thirds of the muscles in your arms. If you want to make your arms look bigger, focus more on the triceps. The triceps will respond best to high intensity training. After picking your workouts for the tricep, preform them with a high number of reps.</p>
             <div class="row">
                 <div class="column2">
@@ -109,7 +109,7 @@
               </div>
         </section>
         <section id=shoulders>
-          <h3>Shoulders</h3>
+          <h3 dir="ltr">Shoulders</h3>
           <p> There are three main heads of the deltoid muscle; the anterior, medial, and posterior deltoid. For most other gym goers, main focus is put on the anterior deltioid. This is because many other exercise such as the bench press or barbell curl work this muscle as a secondary muscle group worked. This often leaves the medial and posterior deltoid underdeveloped as compared to the anterior deltoid. To get those boulder shoulders, dont forget to show attention to the medial and posterior deltoids. </p>
           <div class="row">
               <div class="column1">
@@ -137,8 +137,8 @@
               </div>
             </div>
         </section>
-        <section id=chest >
-          <h3>Chest</h3>
+        <section id=chest class="section1">
+          <h3 dir="rtl">Chest</h3>
           <p>Any good fit physique is incomplete without the full development of the chest. Common practices to training the chest start with dividing the chest into three areas of focus. Those three areas are the <u>upper chest</u>, <u>mid chest</u>, and <u>lower chest</u>. Form a chest routine that will use exercises that hit all three regions of the chest. The chest muscle fibers respond best to a combination of strength focused exercies and hypertrophic exercices. For example, lifting heavy weight when preforming a flat bench press for strangth, and picking a low to moderate weight when preforming an dumbbell incline press will help your chest development.</p>
 
           <div class="row">
@@ -169,7 +169,7 @@
           </div>
         </section>
         <section id=back>
-          <h3>Back</h3>
+          <h3 dir="ltr">Back</h3>
           <p>Its not enough to only good from the front, but also the back. Building your back can be difficult due to the dozens of muscles that share the back. The key to training the back is to utilize the mind-muscle connections and focus on both heavy and light weight movements. This will help turn your back into a shield. </p>
           <div class="row">
             <div class="column1">
@@ -202,9 +202,10 @@
             </div>
           </div>
         </section>
-        <section id=abdomen>
-          <h3>Abdomen</h3>
-          <p>The abdomen, or <u>abs</u> are the main target of development for a lot of bodybuilders. Having a six-pack shows the amount of dedication one has put in the gym. However, the abs play a very significant role as a stabalizer for every other exercie of the other muscle groups. Having a strong core can allow you to lift heavier in other lifts such as the squat or deadlift. To effectively train the abs, train by lifting a heavy load in a short, intense workout. This will help build strength resistance in your core. Keep in mind that having a strong core does not immediately result in a six-pack figure. Six-packs are more dependant on proper dieting rather than proper training. </p>
+        <section id=abdomen class="section1">
+          <h3 dir="rtl">Abdomen</h3>
+          <p>
+            The abdomen, or <u>abs</u> are the main target of development for a lot of bodybuilders. Having a six-pack shows the amount of dedication one has put in the gym. However, the abs play a very significant role as a stabalizer for every other exercie of the other muscle groups. Having a strong core can allow you to lift heavier in other lifts such as the squat or deadlift. To effectively train the abs, train by lifting a heavy load in a short, intense workout. This will help build strength resistance in your core. Keep in mind that having a strong core does not immediately result in a six-pack figure. Six-packs are more dependant on proper dieting rather than proper training. </p>
           <!--Source for this infomration: https://www.coachmag.co.uk/exercises/abs-workout/104/abs-training-->
           <div class="row">
             <div class="column2">
@@ -237,12 +238,11 @@
             </div>
           </div>
         </section>
-          
         </section>
         <section>
           <h2>Lower Body Muscle Groups</h2>
           <section id="quads">
-            <h3>Quadriceps</h3>
+            <h3 dir="ltr">Quadriceps</h3>
             <p>The quadriceps or <u>quads</u> emcopnass the largest musle groups of the body. They make up the muscles on the front of your thigh. To build your own tree trunks, focus on lifting heavy with these exercises. Employing proper form is key when training the quads. </p>
           <!--Source for this infomration: https://www.strengthlog.com/quad-muscles-exercises-workout/-->
           <div class="row">
@@ -275,8 +275,8 @@
             </div>
           </div>
         </section>
-        <section id="hamAndGlutes">
-          <h3>Hamstrings and Glutes</h3>
+        <section id="hamAndGlutes" class="section1">
+          <h3 dir="rtl">Hamstrings and Glutes</h3>
           <p>The hamstrings and glutes make up the leg muscles on the back of your thighs. These muscles all work to help provide stabability when preforming other exercises. Compound movements and isolation exercises will help develop this muscle region of the body. </p>
           <!--Source for this infomration: https://www.issaonline.com/blog/index.cfm/2020/build-stronger-glutes-hamstrings-personal-training-guide-->
           <div class="row">
@@ -312,7 +312,7 @@
             </div>
         </section>
         <section id="calves">
-          <h3>Calves</h3>
+          <h3 dir="ltr">Calves</h3>
           <p>No good lower body development is complete withou strong calves. These muscles tend to be the hardest to develop for every bodybuilder due to them. The best way to train them is to train them in high frequency and employ both rep heavy and rep light exercises. </p>
           <!--Source for this infomration: https://www.issaonline.com/blog/index.cfm/2020/build-stronger-glutes-hamstrings-personal-training-guide-->
           <div class="row">
@@ -349,7 +349,7 @@
     </article>
 </main>
 <footer role="contentinfo">
-  <p><a href="http://www.csun.edu" title="csun.edu" target="_blank">CSUN</a> 18111 Nordhoff St Northridge, CA 91330</p>
+  <p>David Quines, a self-taught bodybuilder. Follow on <a href="https://www.instagram.com/dsqsfl/" title="Instagram of David Quines" target="_blank">Instagram</a></p>
 </footer>
 </body>
 </html>
