@@ -38,10 +38,11 @@ p {
 	font-family: 'Times New Roman', serif;
 }
 a {
-	color: rgb(184, 126, 84);
+	color: rgb(107, 107, 132);
+	text-decoration:none;
 }
 a:hover {
-	color: rgb(120, 97, 55);
+	color: #663399;
 }
 
 pre.wrong {
